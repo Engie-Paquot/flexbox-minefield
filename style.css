@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+.conteneur {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: groove 1em 	#DCDCDC;
+    width: 38rem;
+    height: 38rem;
+    font-size: 2rem;
+}
+
+.ligne1,.ligne2,.ligne3,.ligne4,.ligne5,.ligne6,.ligne7,.ligne8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.vide,.un,.deux,.trois,.bombe,.relief {
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: dotted 2px #DCDCDC;
+    border-bottom: dotted 2px #DCDCDC;
+}
+.un {
+    color: blue;
+    font-weight: bold;
+}
+
+.deux {
+    color: green;
+    font-weight: bold;
+}
+
+.trois {
+    color:red;
+    font-weight: bold;
+}
+
+button {
+    border: inset 1px #DCDCDC;
+    width: 4.7rem;
+    height: 4.7rem;
+    font-size: 2rem;
+}
+.relief {
+    opacity: 0;
+    border: dottend 1px white;
+}
+.relief:hover {
+    opacity: 100%;
+    border: unset;
+
+}
+button:hover {
+    background-color: white;
+    border: dotted 2px #DCDCDC;
+
+}
+
+
+
+
+
+
+
